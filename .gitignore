@@ -3,3 +3,6 @@
 .env
 /.idea
 composer.lock
+/bootstrap/compiled.php
+.env.*.php
+.env.php
