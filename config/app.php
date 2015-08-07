@@ -148,7 +148,6 @@ return [
 		/* Additional Providers for packages */
 		'Barryvdh\Debugbar\ServiceProvider',
 		'Illuminate\Html\HtmlServiceProvider',
-		'Zizaco\Entrust\EntrustServiceProvider',
         'DaveJamesMiller\Breadcrumbs\ServiceProvider',
         'McCool\LaravelAutoPresenter\LaravelAutoPresenterServiceProvider',
 
@@ -204,7 +203,6 @@ return [
 		'Debugbar' 	=> 'Barryvdh\Debugbar\Facade',
 		'HTML' 		=> 'Illuminate\Html\HtmlFacade',
 		'Form'		=> 'Illuminate\Html\FormFacade',
-		'Entrust'   => 'Zizaco\Entrust\EntrustFacade',
         'Breadcrumbs' => 'DaveJamesMiller\Breadcrumbs\Facade',
 
 	],
