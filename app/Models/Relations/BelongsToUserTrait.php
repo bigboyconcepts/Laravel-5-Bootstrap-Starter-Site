@@ -5,7 +5,6 @@ trait BelongsToUserTrait
 {
     public function user()
     {
-//        return 'test';
         return $this->belongsTo('Starter\Models\User');
     }
 }

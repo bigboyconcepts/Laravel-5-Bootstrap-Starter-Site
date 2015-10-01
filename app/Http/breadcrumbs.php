@@ -17,12 +17,12 @@ Breadcrumbs::register('static', function($breadcrumbs, $static)
 Breadcrumbs::register('blog', function($breadcrumbs)
 {
     $breadcrumbs->parent('home');
-    $breadcrumbs->push('Blog', route('blog'));
+    $breadcrumbs->push('Post', route('post'));
 });
 
 // Home > Blog > [Post]
 Breadcrumbs::register('post', function($breadcrumbs, $post)
 {
-    $breadcrumbs->parent('blog');
+    $breadcrumbs->parent('post');
     $breadcrumbs->push($post->title, route('post', $post->id));
 });

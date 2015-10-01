@@ -70,5 +70,4 @@ class Post extends Model {
         'content'    => 'required',
         'user_id' => 'required|exists:users,id',
     ];
-
 }

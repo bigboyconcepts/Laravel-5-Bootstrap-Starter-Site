@@ -5,3 +5,5 @@ If I missed a license, submit a pull request. I'm happy to include it if I misse
 Likely do to going too fast. Credit deserves to be given.
 
 ## [BootstrapCMS Credentials](https://github.com/BootstrapCMS/Credentials)
+
+    * PaginateRepositoryTrait
